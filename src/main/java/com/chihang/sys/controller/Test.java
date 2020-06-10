@@ -18,6 +18,10 @@ public class Test {
 		list.add(new UserInfo("2"));
 		list.add(new UserInfo("1"));
 		list.add(new UserInfo("2"));
+		list.add(new UserInfo("2"));
+		list.add(new UserInfo("2"));
+		list.add(new UserInfo("2"));
+		list.add(new UserInfo("2"));
 		list.add(new UserInfo("1"));
 		list.add(new UserInfo("7"));
 		list.add(new UserInfo("2"));

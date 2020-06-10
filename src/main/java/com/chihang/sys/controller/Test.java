@@ -17,6 +17,7 @@ public class Test {
 		list.add(new UserInfo("1"));
 		//冲突测试
 		list.add(new UserInfo("7"));
+		//阿达飒沓
 		list.add(new UserInfo("2"));
 		Collections.sort(list,(s1,s2)->s1.getUserName().compareTo(s2.getUserName()));
 		list.stream().skip(3).collect(Collectors.toList());

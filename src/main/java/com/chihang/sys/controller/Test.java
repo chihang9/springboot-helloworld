@@ -14,8 +14,8 @@ public class Test {
 	public void sortTest() {
 		List<UserInfo> list = new ArrayList<UserInfo>();
 		list.add(new UserInfo("1"));
-
 		list.add(new UserInfo("1"));
+		//冲突测试
 		list.add(new UserInfo("7"));
 		list.add(new UserInfo("2"));
 		Collections.sort(list,(s1,s2)->s1.getUserName().compareTo(s2.getUserName()));

@@ -14,14 +14,7 @@ public class Test {
 	public void sortTest() {
 		List<UserInfo> list = new ArrayList<UserInfo>();
 		list.add(new UserInfo("1"));
-		list.add(new UserInfo("7"));
-		list.add(new UserInfo("2"));
-		list.add(new UserInfo("1"));
-		list.add(new UserInfo("2"));
-		list.add(new UserInfo("2"));
-		list.add(new UserInfo("2"));
-		list.add(new UserInfo("2"));
-		list.add(new UserInfo("2"));
+
 		list.add(new UserInfo("1"));
 		list.add(new UserInfo("7"));
 		list.add(new UserInfo("2"));

@@ -18,7 +18,7 @@ public class Test {
 		list.add(new UserInfo("2"));
 		list.add(new UserInfo("5312312"));
 		list.add(new UserInfo("4"));
-		list.add(new UserInfo("3"));
+		list.add(new UserInfo("3试试水"));
 		list.add(new UserInfo("6"));
 		Collections.sort(list,(s1,s2)->s1.getUserName().compareTo(s2.getUserName()));
 		list.stream().skip(3).collect(Collectors.toList());

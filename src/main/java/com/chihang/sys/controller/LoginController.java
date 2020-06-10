@@ -22,7 +22,7 @@ public class LoginController {
         map.put("username", username);
         map.put("年龄", 180);
         UserInfo user=new UserInfo();
-        user.setUserName(username);
+        user.setUserName(username);//的萨达撒的萨达萨达阿打算大叔大婶
         session.setAttribute("user",user);
         response.sendRedirect("/main.html");
         return map;
